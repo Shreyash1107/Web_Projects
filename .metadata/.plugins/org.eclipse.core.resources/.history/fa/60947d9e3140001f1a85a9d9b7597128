@@ -1,0 +1,11 @@
+package org.techhub.service;
+
+import org.techhub.model.LoginModel;
+import org.techhub.repository.ValidateUserRepository;
+public class ValidateUserservice
+{
+	public LoginModel isValidate(LoginModel model)
+	{
+		return model.is
+	}
+}

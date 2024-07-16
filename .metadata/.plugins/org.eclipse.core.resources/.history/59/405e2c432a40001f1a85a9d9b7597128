@@ -1,0 +1,11 @@
+package org.techhub.repository;
+
+import org.techhub.model.LoginModel;
+
+public class ValidateUserRepository extends DBParent 
+{
+	public LoginModel isValidate(LoginModel model)
+	{
+		return null;
+	}
+}

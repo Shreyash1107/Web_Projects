@@ -1,0 +1,9 @@
+127.0.0.1 - - [12/Jul/2024:18:17:43 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [12/Jul/2024:18:17:46 +0530] "GET /DistributorApplication/login.jsp HTTP/1.1" 200 372
+127.0.0.1 - - [12/Jul/2024:18:19:34 +0530] "GET /DistributorApplication/valid?Username=abc&Password=abc&s=Login HTTP/1.1" 200 6
+127.0.0.1 - - [12/Jul/2024:19:10:06 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [12/Jul/2024:19:10:07 +0530] "GET /DistributorApplication/login.jsp HTTP/1.1" 200 372
+127.0.0.1 - - [12/Jul/2024:19:10:13 +0530] "GET /DistributorApplication/valid?Username=abc&Password=abc&s=Login HTTP/1.1" 200 6
+127.0.0.1 - - [12/Jul/2024:19:17:36 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [12/Jul/2024:19:17:37 +0530] "GET /DistributorApplication/login.jsp HTTP/1.1" 200 372
+127.0.0.1 - - [12/Jul/2024:19:17:43 +0530] "GET /DistributorApplication/valid?Username=abc&Password=abc&s=Login HTTP/1.1" 200 6

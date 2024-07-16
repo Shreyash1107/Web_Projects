@@ -1,0 +1,15 @@
+package org.techhub.repository;
+import java.sql.*;
+public class DBConfig 
+{
+	protected Connection conn;
+	protected ResultSet rs;
+	protected PreparedStatement pstmt;
+	public DBConfig()
+	{
+		try
+		{
+			
+		}
+	}
+}

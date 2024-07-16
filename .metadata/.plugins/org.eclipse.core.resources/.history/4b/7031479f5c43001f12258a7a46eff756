@@ -1,0 +1,23 @@
+package org.techhub.repository;
+import java.sql.*;
+import static java.lang.System.*;
+
+import java.io.File;
+public class DBConfig 
+{
+	protected Connection conn;
+	protected ResultSet rs;
+	protected PreparedStatement pstmt;
+	public DBConfig()
+	{
+		try
+		{
+			File f = new File(".");
+			String path = f.getAbsolutePath();
+		}
+		catch(Exception ex)
+		{
+			
+		}
+	}
+}

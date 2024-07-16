@@ -1,0 +1,13 @@
+package org.techhub.repository;
+
+public class ValidateUserrepository extends DBParent 
+{
+	try
+	{
+		
+	}
+	catch(Exception ex)
+	{
+		ex.printStackTrace();
+	}
+}

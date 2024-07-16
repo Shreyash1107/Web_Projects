@@ -1,0 +1,10 @@
+package org.techhub.repository;
+
+public class ValidateUserrepository extends DBParent 
+{
+	try
+	{
+		
+	}
+	cach(Exception ex)
+}

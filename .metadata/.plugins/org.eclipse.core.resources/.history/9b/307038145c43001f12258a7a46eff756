@@ -1,0 +1,7 @@
+package org.techhub.repository;
+
+public class DBConfig 
+{
+	protected Connection conn;
+	protected ResultSet ts;
+}

@@ -1,0 +1,32 @@
+package org.techhub.repository;
+import java.sql.*;
+import static java.lang.System.*;
+
+import java.io.File;
+import java.io.FileInputStream;
+public class DBConfig 
+{
+	protected Connection conn;
+	protected ResultSet rs;
+	protected PreparedStatement pstmt;
+	public DBConfig()
+	{
+		try
+		{
+			File f = new File(".");
+			String path = f.getAbsolutePath().substring(0, f.getAbsolutePath().length()-1) + "resources\\db";
+			FileInputStream finf = new  FileInputStream(f);
+			
+			conn = DriverManager.getConnection("", "", "");
+		}
+		catch(Exception ex)
+		{
+			out.println("Error is " + ex);
+			ex.printStackTrace();
+		}
+	}
+	public static void main(String args[])
+	{
+		new DBConfig();
+	}
+}
