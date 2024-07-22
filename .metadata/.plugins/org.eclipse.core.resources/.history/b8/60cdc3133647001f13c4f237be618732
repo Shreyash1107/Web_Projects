@@ -1,0 +1,19 @@
+package org.techhub.repository;
+import static java.lang.System.*;
+import org.techhub.model.LoginModel;
+
+public class RegisterrepositoryImpl extends DBParent implements Registerrepository 
+{
+	public LoginModel isalumniRegister(LoginModel model)
+	{
+		try
+		{
+			
+		}
+		catch(Exception ex)
+		{
+			out.println("Error is " + ex);
+			ex.printStackTrace();
+		}
+	}
+}

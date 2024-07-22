@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+		<div class='container'>
+		<h4>Registration Form</h4>
+				<div class='wrapper'>
+					<input type = 'text' name='Username' value='' placeholder='Username'/>
+					<div class='content'>
+						<input type='password' name='Password'
+					</div>	
+				</div>
+		</div>
+</body>
+</html>

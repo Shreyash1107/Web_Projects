@@ -1,0 +1,9 @@
+package org.techhub.repository;
+
+import org.techhub.model.LoginModel;
+import static java.lang.System.*;
+
+public class LoginRepositoryImpl extends DB implements LoginRepository 
+{
+	
+}

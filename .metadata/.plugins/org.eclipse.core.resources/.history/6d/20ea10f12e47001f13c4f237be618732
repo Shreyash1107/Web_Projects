@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+<link rel='stylesheet' href=''
+</head>
+<body>
+<form>
+<center>
+	<div class='container'>
+		<h4>Registration Form</h4>
+		<div class='wrapper'>
+			<input type='text' name='Username' value='' placeholder='Username' />
+		</div>
+		<div class='content'>
+			<input type='password' name='Password' value=''
+				placeholder='Password' />
+		</div>
+		<div class='sub-content'>
+			<input type='contact' name='Contact' value=''
+				placeholder='Mobile Number'/>
+		</div>
+		<div class='menu'>
+			<input type='email' name='Email-Id' value=''
+					placeholder='Email-Id'/>
+		</div>
+		<div class='btn'>
+			<input type='submit' name='reg' value='Register'/>
+		</div>
+	</div>
+	</center>
+	</form>
+</body>
+</html>

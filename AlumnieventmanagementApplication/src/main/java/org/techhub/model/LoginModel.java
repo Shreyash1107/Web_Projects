@@ -4,6 +4,8 @@ public class LoginModel
 {
 	private String username;
 	private String Password;
+	private String Contact;
+	private String Email;
 	private String Logintype;
 	public void setusername(String username)
 	{
@@ -20,6 +22,22 @@ public class LoginModel
 	public String getPassword()
 	{
 		return Password;
+	}
+	public void setContact(String Contact)
+	{
+		this.Contact = Contact;
+	}
+	public String getContact()
+	{
+		return Contact;
+	}
+	public void setemail(String Email)
+	{
+		this.Email = Email;
+	}
+	public String getEmail()
+	{
+		return Email;
 	}
 	public void setLogintype(String Logintype)
 	{

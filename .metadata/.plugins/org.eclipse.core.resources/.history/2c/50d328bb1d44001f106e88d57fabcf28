@@ -1,0 +1,14 @@
+package org.techhub.service;
+
+import org.techhub.model.LoginModel;
+
+public class LoginServiceImpl implements LoginService 
+{
+
+	@Override
+	public LoginModel isLoginSuccess(LoginModel model) 
+	{
+		return null;
+	}
+	
+}

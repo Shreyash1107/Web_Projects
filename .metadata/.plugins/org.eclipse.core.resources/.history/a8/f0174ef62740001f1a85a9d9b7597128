@@ -1,6 +1,0 @@
-package org.techhub.repository;
-
-public class DBParent 
-{
-	protected DBConfig config = DBConfig.getinstance();
-}

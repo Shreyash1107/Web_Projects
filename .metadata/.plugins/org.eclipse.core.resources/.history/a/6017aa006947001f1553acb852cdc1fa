@@ -1,0 +1,8 @@
+package org.techhub.service;
+
+import org.techhub.repository.DBParent;
+
+public class RegisterServiceImpl extends DBParent implements RegisterService
+{
+	
+}

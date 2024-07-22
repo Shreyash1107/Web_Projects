@@ -1,7 +1,0 @@
-package org.techhub.repository;
-import java.sql.*;
-public class DBParent 
-{
-	protected DBConfig config = DBConfig.getinstance();
-	protected Connection conn = config.getConnection();
-}

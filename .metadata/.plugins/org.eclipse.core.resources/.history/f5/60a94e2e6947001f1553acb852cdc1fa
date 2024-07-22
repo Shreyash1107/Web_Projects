@@ -1,0 +1,13 @@
+package org.techhub.service;
+
+import org.techhub.model.LoginModel;
+import org.techhub.repository.DBParent;
+
+public class RegisterServiceImpl extends DBParent implements RegisterService
+{
+	Registerrepository regrepo = new RegisterrepositoryImpl();
+	public LoginModel isaAlumniregister(LoginModel model)
+	{
+		return null;
+	}
+}

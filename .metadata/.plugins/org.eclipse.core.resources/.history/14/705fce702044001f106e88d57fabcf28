@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+</head>
+<body>
+	<center>
+		<form>
+			<div class='wrapper'>
+					<div class='box'>
+						<input type='text' name='Username' value=''/></br></br>
+						<input type='password' name='Passowrd' value=''/></br></br>
+						<input type='submit' name='sub' value='Login'/></br></br>
+						
+					</div>
+			</div>
+		</form>
+	</center>
+</body>
+</html>

@@ -1,0 +1,4 @@
+127.0.0.1 - - [16/Jul/2024:14:45:44 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [16/Jul/2024:14:45:47 +0530] "GET /AlumnieventmanagementApplication/login.jsp HTTP/1.1" 200 307
+127.0.0.1 - - [16/Jul/2024:14:45:47 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [16/Jul/2024:14:46:02 +0530] "GET /AlumnieventmanagementApplication/login.jsp HTTP/1.1" 200 312
