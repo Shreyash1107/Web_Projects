@@ -4,5 +4,5 @@ import org.techhub.model.LoginModel;
 
 public interface LoginService 
 {
-	public boolean isLoginSuccess(LoginModel model);
+	public LoginModel isLoginSuccess(LoginModel model);
 }

@@ -21,6 +21,10 @@
 			<input type='password' name='Password' value=''
 				placeholder='Password' autocomplete='off'/>
 		</div>
+		<div class='type'>
+			<input type='text' name='Logintype' value='' 
+				placeholder='Logintype' autocomplete='off' />
+		</div>
 		<div class='sub-content'>
 			<input type='contact' name='Contact' value=''
 				placeholder='Mobile Number' autocomplete='off'/>

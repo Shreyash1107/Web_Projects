@@ -1,0 +1,19 @@
+package org.techhub.repository;
+
+import org.techhub.model.LoginModel;
+import static java.lang.System.*;
+
+public class LoginRepositoryImpl extends DB implements LoginRepository 
+{
+	public LoginModel isLoginSuccess(LoginModel model)
+	{
+		try
+		{
+			
+		}
+		catch(Exception ex)
+		{
+			
+		}
+	}
+}

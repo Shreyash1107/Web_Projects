@@ -32,10 +32,12 @@ public class RegisterServletApp extends HttpServlet {
 		String Password = request.getParameter("Password");
 		String Contact = request.getParameter("Contact");
 		String Email = request.getParameter("Email-Id");
-		model.setusername(username);
-		model.setsetpass(Password);
-		model.setemail(Email);
+		String logintype = request.getParameter("Logintype");
+		model.setUsername(username);
+		model.setPassword(Password);
+		model.setEmail(Email);
 		model.setContact(Contact);
+		model.setLogintype(logintype);
 		model = regservice.isaAlumniregister(model);
 		if(model!=null)
 		{

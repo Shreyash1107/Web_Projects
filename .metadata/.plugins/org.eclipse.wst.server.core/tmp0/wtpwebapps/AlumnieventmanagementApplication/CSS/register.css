@@ -15,11 +15,7 @@ body
 .container
 {
 	width: 600px;
-	height: 400px;
 	margin:120px auto;
-	border: 5px solid black;
-	border-top-left-radius: 50px;
-	border-bottom-right-radius: 50px;
 }
 .container h4
 {

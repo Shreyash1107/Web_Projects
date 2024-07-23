@@ -3,6 +3,7 @@ package org.techhub.controller;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -10,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.techhub.model.LoginModel;
+import org.techhub.repository.DBParent;
 import org.techhub.service.LoginService;
 import org.techhub.service.LoginServiceImpl;
 
@@ -23,18 +25,24 @@ public class LoginServlet extends HttpServlet
 		String username = request.getParameter("Username");
 		String pass = request.getParameter("Password");
 		LoginModel model = new LoginModel(); 
-		model.setusername(username);
-		model.setsetpass(pass);
+		model.setUsername(username);
+		model.setPassword(pass);
 		LoginService logservice = new LoginServiceImpl();
-		boolean b;
-		b = logservice.isLoginSuccess(model);
-		if(b)
+		model = logservice.isLoginSuccess(model);
+		out.println(model.getUsername() + " " + model.getPassword() + " " + model.getLogintype());
+		if(model.getLogintype().equals("Student"))
 		{
-			out.println("<h4>Login Successfull</h4>");
+			out.println("<h4>Student Login Successfull</h4>");
+//			RequestDispatcher reqdispatch = request.getRequestDispatcher(" ");
+//			reqdispatch.forward(request, response);
+		}
+		else if(model.getLogintype().equals("Admin"))
+		{
+			out.println("<h4>Admin Login Successfull</h4>");
 		}
 		else
 		{
-			out.println("<h4>Login Failed</h4>");
+			out.println("<h4>Invalid Username and password</h4>");
 		}
 	}
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
