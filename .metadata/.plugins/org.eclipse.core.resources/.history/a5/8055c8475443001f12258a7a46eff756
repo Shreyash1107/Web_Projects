@@ -1,7 +1,0 @@
-package org.techhub.model;
-
-public class LoginModel 
-{
-	private String username;
-	private String Password;
-}

@@ -128,3 +128,11 @@
 127.0.0.1 - - [23/Jul/2024:17:55:01 +0530] "GET / HTTP/1.1" 404 751
 0:0:0:0:0:0:0:1 - - [23/Jul/2024:17:55:02 +0530] "GET /AlumnieventmanagementApplication/login.jsp HTTP/1.1" 200 882
 0:0:0:0:0:0:0:1 - - [23/Jul/2024:17:55:13 +0530] "GET /AlumnieventmanagementApplication/valid?Username=Shreyash&Password=Shreyash%40123&Logintype=Student&sub=Login HTTP/1.1" 404 785
+127.0.0.1 - - [23/Jul/2024:17:57:29 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [23/Jul/2024:17:57:30 +0530] "GET /AlumnieventmanagementApplication/login.jsp HTTP/1.1" 200 882
+0:0:0:0:0:0:0:1 - - [23/Jul/2024:17:57:44 +0530] "GET /AlumnieventmanagementApplication/valid?Username=Shreyash&Password=Shreyash%40123&Logintype=Student&sub=Login HTTP/1.1" 200 67
+0:0:0:0:0:0:0:1 - - [23/Jul/2024:17:57:54 +0530] "GET /AlumnieventmanagementApplication/Register.jsp HTTP/1.1" 200 1122
+0:0:0:0:0:0:0:1 - - [23/Jul/2024:17:57:54 +0530] "GET /AlumnieventmanagementApplication/CSS/register.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [23/Jul/2024:17:58:29 +0530] "POST /AlumnieventmanagementApplication/register HTTP/1.1" 200 174
+0:0:0:0:0:0:0:1 - - [23/Jul/2024:17:58:40 +0530] "GET /AlumnieventmanagementApplication/login.jsp HTTP/1.1" 200 882
+0:0:0:0:0:0:0:1 - - [23/Jul/2024:17:59:12 +0530] "GET /AlumnieventmanagementApplication/valid?Username=Sanket&Password=Sanket11%4009&Logintype=Admin&sub=Login HTTP/1.1" 200 60

@@ -33,8 +33,8 @@ public class LoginServlet extends HttpServlet
 		if(model.getLogintype().equals("Student"))
 		{
 			out.println("<h4>Student Login Successfull</h4>");
-//			RequestDispatcher reqdispatch = request.getRequestDispatcher(" ");
-//			reqdispatch.forward(request, response);
+			RequestDispatcher reqdispatch = request.getRequestDispatcher("index.jsp");
+			reqdispatch.forward(request, response);
 		}
 		else if(model.getLogintype().equals("Admin"))
 		{

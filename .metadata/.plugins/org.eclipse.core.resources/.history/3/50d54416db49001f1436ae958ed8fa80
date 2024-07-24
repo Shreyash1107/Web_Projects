@@ -1,0 +1,6 @@
+package org.techhub.repository;
+
+public class BatchMasterrepositoryImpl implements BatchMasterrepository extends DB  
+{
+	
+}

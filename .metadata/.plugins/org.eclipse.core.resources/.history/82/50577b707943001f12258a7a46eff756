@@ -1,7 +1,0 @@
-package org.techhub.repository;
-
-public class DBParent 
-{
-	protected DBConfig db = DBConfig.getinstance();
-	protected Connection conn = db.getConn();
-}

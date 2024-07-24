@@ -1,0 +1,6 @@
+package org.techhub.service;
+
+public class BatchMasterServiceImpl extends DB implements BatchMasterService 
+{
+	
+}

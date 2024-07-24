@@ -1,0 +1,18 @@
+package org.techhub.repository;
+
+import org.techhub.model.BatchMasterModel;
+
+public class BatchMasterrepositoryImpl extends DB  implements BatchMasterrepository  
+{
+	public boolean isBatchAdded(BatchMasterModel bm)
+	{
+		try
+		{
+			
+		}
+		catch(Exception ex)
+		{
+			
+		}
+	}
+}

@@ -1,0 +1,6 @@
+package org.techhub.service;
+
+public interface BatchMasterService 
+{
+	public boolean isBatchAdded(BatchMasterModel bm);
+}

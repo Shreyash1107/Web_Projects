@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="org.techhub.repository.LoginRepository"/>
     <fullyQualifiedTypeName name="org.techhub.repository.LoginRepositoryImpl"/>
     <fullyQualifiedTypeName name="java.io.File"/>
-    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="org.techhub.repository.Registerrepository"/>
     <fullyQualifiedTypeName name="org.techhub.repository.RegisterrepositoryImpl"/>
     <fullyQualifiedTypeName name="org.techhub.service.RegisterService"/>
@@ -19,9 +18,15 @@
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-    <fullyQualifiedTypeName name="org.techhub.repository.DB"/>
     <fullyQualifiedTypeName name="org.techhub.repository.DBParent"/>
     <fullyQualifiedTypeName name="org.techhub.model.LoginModel"/>
     <fullyQualifiedTypeName name="org.techhub.service.LoginService"/>
     <fullyQualifiedTypeName name="org.techhub.service.LoginServiceImpl"/>
+    <fullyQualifiedTypeName name="org.techhub.repository.BatchMasterrepository"/>
+    <fullyQualifiedTypeName name="org.techhub.repository.BatchMasterrepositoryImpl"/>
+    <fullyQualifiedTypeName name="org.techhub.repository.DB"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="org.techhub.model.BatchMasterModel"/>
+    <fullyQualifiedTypeName name="org.techhub.service.BatchMasterService"/>
+    <fullyQualifiedTypeName name="org.techhub.service.BatchMasterServiceImpl"/>
 </qualifiedTypeNameHistroy>
