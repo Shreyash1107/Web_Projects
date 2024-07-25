@@ -12,14 +12,6 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 	integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
 	crossorigin="anonymous"></script>
-<script
-	src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-	integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-	crossorigin="anonymous"></script>
-<script
-	src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-	integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-	crossorigin="anonymous"></script>
 </head>
 <body>
 	<div class="container mt-5">
@@ -30,7 +22,7 @@
 					<a class="nav-link active" id="v-pills-home-tab" data-toggle="pill"
 						href="index.jsp" role="tab" aria-controls="v-pills-home"
 						aria-selected="true">Batch Master</a> <a class="nav-link"
-						id="v-pills-profile-tab" data-toggle="pill" href="newmaster.jsp"
+						id="v-pills-profile-tab" data-toggle="pill" href="Alumnimaster.jsp"
 						role="tab" aria-controls="v-pills-profile" aria-selected="false">Alumni
 						Master</a> <a class="nav-link" id="v-pills-messages-tab"
 						data-toggle="pill" href="#v-pills-messages" role="tab"

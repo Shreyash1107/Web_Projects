@@ -1,0 +1,7 @@
+127.0.0.1 - - [25/Jul/2024:10:17:57 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:17:58 +0530] "GET /AlumnieventmanagementApplication/login.jsp HTTP/1.1" 200 882
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:17:58 +0530] "GET /AlumnieventmanagementApplication/CSS/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:17:58 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:18:21 +0530] "GET /AlumnieventmanagementApplication/valid?Username=Shreyash&Password=Shreyash%40123&Logintype=Student&sub=Login HTTP/1.1" 200 4245
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:18:21 +0530] "GET /AlumnieventmanagementApplication/styles.css HTTP/1.1" 404 798
+0:0:0:0:0:0:0:1 - - [25/Jul/2024:10:18:30 +0530] "POST /AlumnieventmanagementApplication/batch HTTP/1.1" 200 42
