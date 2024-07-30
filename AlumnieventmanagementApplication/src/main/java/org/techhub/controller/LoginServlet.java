@@ -9,6 +9,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.techhub.model.LoginModel;
 import org.techhub.repository.DBParent;
@@ -33,6 +34,9 @@ public class LoginServlet extends HttpServlet
 		if(model.getLogintype().equals("Student"))
 		{
 			out.println("<h4>Student Login Successfull</h4>");
+			HttpSession session = request.getSession(true);
+			session.setAttribute("username", model.getUsername());
+			session.setAttribute("pass", model.getPassword());
 			RequestDispatcher reqdispatch = request.getRequestDispatcher("index.jsp");
 			reqdispatch.forward(request, response);
 		}

@@ -1,0 +1,5 @@
+@charset "ISO-8859-1";
+.form-group d-flex justify-content-center link-group
+{
+	margin-top: -50px;
+}

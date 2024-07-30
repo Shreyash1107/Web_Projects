@@ -1,0 +1,44 @@
+package org.techhub.repository;
+
+import java.util.Vector;
+
+import org.techhub.model.AlumniMasterModel;
+
+public class AlumniMasterModelrepositoryImpl extends DB implements Alumnirepository
+{
+	Vector<AlumniMasterModel> vect = null;
+	public boolean isAlumniAdded(AlumniMasterModel am)
+	{
+		int val;
+		try
+		{
+			pstmt = conn.prepareStatement("insert into alumnimaster values('0',?,?,?,?,?,?)");
+			pstmt.setString(1, am.getname());
+			pstmt.setString(2, am.getEmail());
+			pstmt.setString(3, am.getContact());
+			pstmt.setInt(4, am.getAge());
+			pstmt.setString(5, am.getCompany());
+			pstmt.setInt(6, am.getBid());
+			val = pstmt.executeUpdate();
+			return val>0?true:false;
+		}
+		catch(Exception ex)
+		{
+			ex.printStackTrace();
+			return false;
+		}
+	}
+	public Vector<AlumniMasterModel> getalumni()
+	{
+		vect = new Vector<AlumniMasterModel>();
+		try
+		{
+			
+		}
+		catch(Exception ex)
+		{
+			ex.printStackTrace();
+		}
+		return null;
+	}
+}

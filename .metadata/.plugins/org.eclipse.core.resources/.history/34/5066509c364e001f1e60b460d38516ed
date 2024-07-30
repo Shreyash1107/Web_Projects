@@ -1,0 +1,63 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ page import="java.util.*,org.techhub.service.*,org.techhub.model.*"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Alumni Details</title>
+<style>
+    body 
+    {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+    }
+    .wrapper 
+    {
+        width: 50%;
+        margin: 20px auto;
+        background-color:teal;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    table.details 
+    {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    table.details thead th 
+    {
+        color: white;
+        padding: 10px;
+    }
+    table.details tbody td 
+    {
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+</style>
+</head>
+<body>
+	<%@ include file="Alumnimaster.jsp"%>
+	<div class="wrapper">
+		<table class="details">
+			<thead>
+				<tr>
+					<th>Alumni Id</th>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Contact</th>
+					<th>Age</th>
+					<th>Company</th>
+					<th>Bid</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- Rows of data will be inserted here -->
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

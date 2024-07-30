@@ -1,0 +1,12 @@
+package org.techhub.service;
+
+import org.techhub.model.AlumniMasterModel;
+
+public class AlumniMasterServiceImpl implements Alumnimasterservice 
+{
+	
+	public boolean isAlumniAdded(AlumniMasterModel am)
+	{
+		
+	}
+}

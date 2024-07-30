@@ -1,0 +1,20 @@
+package org.techhub.repository;
+
+import org.techhub.model.AlumniMasterModel;
+
+public class AlumniMasterModelrepositoryImpl extends DB implements Alumnirepository
+{
+	public boolean isAlumniAdded(AlumniMasterModel am)
+	{
+		try
+		{
+			pstmt = conn.prepareStatement("insert into aumnimaster values('0')");
+		}
+		catch(Exception ex)
+		{
+			ex.printStackTrace();
+			return false;
+		}
+		return false;
+	}
+}
