@@ -55,4 +55,42 @@ public class AlumniMasterModelrepositoryImpl extends DB implements Alumnireposit
 		}
 		return null;
 	}
+	public boolean isAlumniUpdated(AlumniMasterModel am)
+	{
+		int val;
+		try
+		{
+			pstmt = conn.prepareStatement("update Alumnimaster set Name = ?,Email = ?,Contact=?,Age = ?, Company = ?, Bid = ? where Aid = ?");
+			pstmt.setString(1, am.getname());
+			pstmt.setString(2, am.getEmail());
+			pstmt.setString(3, am.getContact());
+			pstmt.setInt(4, am.getAge());
+			pstmt.setString(5, am.getCompany());
+			pstmt.setInt(6, am.getBid());
+			pstmt.setInt(7, am.getid());
+			val = pstmt.executeUpdate();
+			return val>0?true:false;
+		}
+		catch(Exception ex)
+		{
+			ex.printStackTrace();
+			return false;
+		}
+	}
+	public boolean isAlumnidelete(AlumniMasterModel am)
+	{
+		int val;
+		try
+		{
+			pstmt = conn.prepareStatement("delete from Alumnimaster where Aid = ?");
+			pstmt.setInt(1, am.getid());
+			val = pstmt.executeUpdate();
+			return val>0?true:false;
+		}
+		catch(Exception ex)
+		{
+			ex.printStackTrace();
+			return false;
+		}
+	}
 }

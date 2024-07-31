@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+body
+{
+	background-color:palegoldenrod;
+}
+.text-center
+{
+	margin-top: -53px;
+}

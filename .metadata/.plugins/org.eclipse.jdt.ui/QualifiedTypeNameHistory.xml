@@ -25,14 +25,16 @@
     <fullyQualifiedTypeName name="org.techhub.repository.BatchMasterrepository"/>
     <fullyQualifiedTypeName name="org.techhub.repository.BatchMasterrepositoryImpl"/>
     <fullyQualifiedTypeName name="org.techhub.repository.DB"/>
-    <fullyQualifiedTypeName name="org.techhub.model.BatchMasterModel"/>
     <fullyQualifiedTypeName name="org.techhub.service.BatchMasterService"/>
     <fullyQualifiedTypeName name="org.techhub.service.BatchMasterServiceImpl"/>
     <fullyQualifiedTypeName name="org.techhub.repository.Alumnirepository"/>
     <fullyQualifiedTypeName name="org.techhub.repository.AlumniMasterModelrepositoryImpl"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="java.util.Vector"/>
+    <fullyQualifiedTypeName name="org.techhub.model.BatchMasterModel"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="org.techhub.model.AlumniMasterModel"/>
     <fullyQualifiedTypeName name="org.techhub.service.Alumnimasterservice"/>
     <fullyQualifiedTypeName name="org.techhub.service.AlumniMasterServiceImpl"/>
-    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 </qualifiedTypeNameHistroy>

@@ -18,4 +18,12 @@ public class AlumniMasterServiceImpl implements Alumnimasterservice
 		Vector v = amrepo.getalumni();
 		return v;
 	}
+	public boolean isAlumniUpdated(AlumniMasterModel am)
+	{
+		return amrepo.isAlumniUpdated(am);
+	}
+	public boolean isAlumnidelete(AlumniMasterModel am)
+	{
+		return amrepo.isAlumnidelete(am);
+	}
 }

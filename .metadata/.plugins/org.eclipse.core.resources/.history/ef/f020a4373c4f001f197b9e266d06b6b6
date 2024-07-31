@@ -1,0 +1,16 @@
+function toggleFields(show) 
+{
+    document.getElementById("aidDropdown").style.display = show ? "block" : "none";
+    document.getElementById("batchDropdown").style.display = show ? "block" : "none";
+    document.getElementById("updateFields").style.display = show ? "block" : "none";
+}
+
+function updateAidText(aid) 
+{
+    document.getElementById("hiddenAid").value = aid;
+}
+
+function updateBatchText(bid) 
+{
+    document.getElementById("hiddenBatchId").value = bid;
+}

@@ -1,0 +1,33 @@
+/* Style the select element */
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Style the option elements */
+select option {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px; /* Note: Padding might not work in all browsers */
+}
+
+/* Hover effect for option elements */
+select option:hover {
+    background-color: #e2e2e2;
+}
+
+/* Style specific option elements if needed */
+select option[value="1"] {
+    background-color: #c8e6c9; /* Light green background */
+    color: #2e7d32; /* Dark green text */
+}
+
+select option[value="0"] {
+    background-color: #ffcdd2; /* Light red background */
+    color: #c62828; /* Dark red text */
+}

@@ -1,0 +1,10 @@
+@charset "ISO-8859-1";
+body
+{
+	background-color:palegoldenrod;
+	overflow: hidden;
+}
+.text-center
+{
+	margin-top: -53px;
+}

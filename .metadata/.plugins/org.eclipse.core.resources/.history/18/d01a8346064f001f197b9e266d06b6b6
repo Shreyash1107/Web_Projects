@@ -1,0 +1,20 @@
+function toggleFields(show) 
+{
+    var aidDropdown = document.getElementById("aidDropdown");
+    var updateFields = document.getElementById("updateFields");
+    if (show) 
+    {
+        aidDropdown.style.display = "block";
+        updateFields.style.display = "block";
+    } 
+    else 
+    {
+        aidDropdown.style.display = "none";
+        updateFields.style.display = "none";
+    }
+}
+function updateDropdown(button, value) 
+{
+    button.textContent = value;
+    showUpdateFields();
+}

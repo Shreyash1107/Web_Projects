@@ -1,0 +1,44 @@
+package org.techhub.controller;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.techhub.model.AlumniMasterModel;
+import org.techhub.service.AlumniMasterServiceImpl;
+import org.techhub.service.Alumnimasterservice;
+
+@WebServlet("/update")
+public class Updatealumni extends HttpServlet 
+{
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	{
+		response.setContentType("text/html");
+		PrintWriter out = response.getWriter();
+		int aid = Integer.parseInt(request.getParameter("aid"));
+		String name = request.getParameter("alumniName");
+		String email = request.getParameter("email");
+		String contact = request.getParameter("contact");
+		int Age = Integer.parseInt(request.getParameter("age"));
+		String Company = request.getParameter("compname");
+		int bid = Integer.parseInt(request.getParameter("batchid"));
+		AlumniMasterModel amodel = new AlumniMasterModel();
+		amodel.setAid(aid);
+		amodel.setname(name);
+		amodel.setEmail(email);
+		amodel.setContact(contact);
+		amodel.setAge(Age);
+		amodel.setCompany(Company);
+		amodel.setBid(bid);
+		Alumnimasterservice amservice = new AlumniMasterServiceImpl();
+	}
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	{
+		doGet(request, response);
+	}
+}

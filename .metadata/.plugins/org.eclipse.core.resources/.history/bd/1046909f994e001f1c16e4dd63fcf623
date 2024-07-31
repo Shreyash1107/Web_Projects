@@ -1,0 +1,18 @@
+/* home.css */
+
+/* Change background color of nav links */
+.nav-pills .nav-link {
+    background-color: black !important;
+    color: white !important; /* Optionally change text color to white */
+}
+
+/* Active link styles */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: black !important; /* Adjust active link background color */
+    color: white !important; /* Adjust active link text color */
+}
+
+/* Adjust margin for .text-center class */
+.text-center {
+    margin-top: -50px;
+}

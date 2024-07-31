@@ -28,3 +28,7 @@ Jul 30, 2024 13:08:25.40 [33128:19120:0730/130825.401:ERROR:connection_factory_i
 Jul 30, 2024 13:08:25.92 [33128:19120:0730/130825.403:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
 Jul 30, 2024 13:32:37.27 Created TensorFlow Lite XNNPACK delegate for CPU.
 Jul 30, 2024 13:33:09.77 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+
+Jul 30, 2024 16:23:55.12 NEW SESSION
+Jul 30, 2024 16:23:55.16 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jul 30, 2024 16:24:27.24 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).

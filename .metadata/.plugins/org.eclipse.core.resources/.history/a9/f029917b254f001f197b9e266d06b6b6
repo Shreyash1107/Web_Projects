@@ -1,0 +1,59 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div id="aidDropdown" class="form-container mt-2"
+									style="display: none;">
+									<h5>Select Alumni ID</h5>
+									<div class="dropdown mt-3">
+										<a class="btn btn-dark dropdown-toggle" href="#" role="button"
+											id="aidDropdownLink" data-toggle="dropdown"
+											aria-haspopup="true" aria-expanded="false"> Aid </a>
+										<div class="dropdown-menu" aria-labelledby="aidDropdownLink">
+											<%
+											Alumnimasterservice amservice = new AlumniMasterServiceImpl();
+											Vector<AlumniMasterModel> v = amservice.getalumni();
+											%>
+											<a class="dropdown-item" href="#"
+												onclick="updateAidText('Select ID')">Select ID</a>
+											<%
+											for (AlumniMasterModel amodel : v) {
+											%>
+											<a class="dropdown-item" name="aid"
+												value="<%=amodel.getid()%>" 
+												onclick="updateAidText('<%=amodel.getid()%>')"><%=amodel.getid()%></a>
+											<%
+											}
+											%>
+										</div>
+									</div>
+									<div id="batchDropdown" class="form-container mt-2"
+										style="display: none;">
+										<h5>Select Batch ID</h5>
+										<div class="dropdown mt-3">
+											<a class="btn btn-dark dropdown-toggle" href="#"
+												role="button" id="batchDropdownLink" data-toggle="dropdown"
+												aria-haspopup="true" aria-expanded="false"> Bid </a>
+											<div class="dropdown-menu"
+												aria-labelledby="batchDropdownLink">
+												<%
+												BatchMasterService bmservice = new BatchMasterServiceImpl();
+												Vector<BatchMasterModel> v1 = bmservice.getbtchdetails();
+												%>
+												<a class="dropdown-item" href="#"
+													onclick="updateBatchText('Select ID')">Select ID</a>
+												<%
+												for (BatchMasterModel bm : v1) {
+												%>
+												<a class="dropdown-item" name = "bid" value="<%=bm.getBid()%>" 
+													onclick="updateBatchText('<%=bm.getBid()%>')"><%=bm.getBid()%></a>
+												<%
+												}
+												%>
+</body>
+</html>

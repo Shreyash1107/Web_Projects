@@ -1,0 +1,33 @@
+function toggleFields(option) 
+{
+    const aidDropdown = document.getElementById('aidDropdown');
+    const batchDropdown = document.getElementById('batchDropdown');
+    const updateFields = document.getElementById('updateFields');
+    const optSelect = document.getElementById('optSelect');
+
+    // Reset the dropdowns and fields visibility
+    aidDropdown.style.display = 'none';
+    batchDropdown.style.display = 'none';
+    updateFields.style.display = 'none';
+
+    if (option === "1") {
+        aidDropdown.style.display = 'block';
+        batchDropdown.style.display = 'block';
+        updateFields.style.display = 'block';
+    }
+
+    // Reset the optSelect to "Select" on page load
+    window.onload = function () {
+        optSelect.selectedIndex = 0;
+    };
+}
+
+function updateAidText(value) {
+    const hiddenAid = document.getElementById('hiddenAid');
+    hiddenAid.value = value;
+}
+
+function updateBatchText(value) {
+    const hiddenBatchId = document.getElementById('hiddenBatchId');
+    hiddenBatchId.value = value;
+}

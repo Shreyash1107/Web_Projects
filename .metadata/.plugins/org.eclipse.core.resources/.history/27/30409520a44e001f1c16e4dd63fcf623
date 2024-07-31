@@ -1,0 +1,44 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="login-container d-flex align-items-center justify-content-center">
+        <div class="login-form text-center">
+            <h1 class="mb-5">Login #10</h1>
+            <h2 class="mb-3">Have an account?</h2>
+            <form action="login" method="post">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="username" placeholder="Username" required>
+                </div>
+                <div class="form-group position-relative">
+                    <input type="password" class="form-control" name="password" placeholder="Password" required>
+                    <span class="position-absolute password-icon">&#128065;</span>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block mb-4">Sign In</button>
+                <div class="form-check mb-3">
+                    <input type="checkbox" class="form-check-input" id="rememberMe" name="rememberMe">
+                    <label class="form-check-label" for="rememberMe">Remember Me</label>
+                </div>
+                <div class="forgot-password">
+                    <a href="#">Forgot Password</a>
+                </div>
+            </form>
+            <p class="mt-4">Or Sign In With</p>
+            <div class="social-buttons">
+                <button class="btn btn-outline-primary">Facebook</button>
+                <button class="btn btn-outline-primary">Twitter</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

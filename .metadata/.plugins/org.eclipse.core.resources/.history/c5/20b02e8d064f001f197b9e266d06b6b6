@@ -1,0 +1,27 @@
+// update.js
+
+function toggleFields(isYes) {
+    const aidDropdown = document.getElementById('aidDropdown');
+    const updateFields = document.getElementById('updateFields');
+    const dropdownMenuLink = document.getElementById('dropdownMenuLink');
+    
+    // Update the dropdown menu text based on selection
+    dropdownMenuLink.textContent = isYes ? 'I choose option Yes' : 'I choose option No';
+    
+    // Show or hide the Aid dropdown based on the selection
+    if (isYes) {
+        aidDropdown.style.display = 'block';
+    } else {
+        aidDropdown.style.display = 'none';
+        updateFields.style.display = 'none'; // Hide update fields if No is selected
+    }
+}
+
+function updateAidText(aid) {
+    const aidDropdownLink = document.getElementById('aidDropdownLink');
+    aidDropdownLink.textContent = 'Selected ID: ' + aid;
+
+    // Show update fields after selecting an ID
+    const updateFields = document.getElementById('updateFields');
+    updateFields.style.display = 'block';
+}

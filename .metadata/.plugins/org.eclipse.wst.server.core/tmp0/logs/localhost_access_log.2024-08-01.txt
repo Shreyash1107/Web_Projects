@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:00:00:43 +0530] "GET /AlumnieventmanagementApplication/Alumnimaster.jsp HTTP/1.1" 200 4100
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:00:00:43 +0530] "GET /AlumnieventmanagementApplication/styles.css HTTP/1.1" 404 798
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:00:00:43 +0530] "GET /AlumnieventmanagementApplication/CSS/Alumni.css HTTP/1.1" 200 65
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:00:01:02 +0530] "GET /AlumnieventmanagementApplication/Alumnimaster.jsp HTTP/1.1" 200 4100
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:00:01:02 +0530] "GET /AlumnieventmanagementApplication/styles.css HTTP/1.1" 404 798
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:00:01:02 +0530] "GET /AlumnieventmanagementApplication/CSS/Alumni.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:00:01:43 +0530] "GET /AlumnieventmanagementApplication/Deletealumni.jsp HTTP/1.1" 200 7248
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:00:01:44 +0530] "GET /AlumnieventmanagementApplication/JS/delete.js HTTP/1.1" 200 461
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:00:01:44 +0530] "GET /AlumnieventmanagementApplication/CSS/delete.css HTTP/1.1" 200 64
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:00:02:38 +0530] "GET /AlumnieventmanagementApplication/UpdateAlumni.jsp HTTP/1.1" 200 12337
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:00:02:39 +0530] "GET /AlumnieventmanagementApplication/CSS/update.css HTTP/1.1" 200 40
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:00:02:39 +0530] "GET /AlumnieventmanagementApplication/JS/update.js HTTP/1.1" 200 461
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:00:02:51 +0530] "GET /AlumnieventmanagementApplication/Viewalumni.jsp HTTP/1.1" 200 9006
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:00:02:52 +0530] "GET /AlumnieventmanagementApplication/CSS/view.css HTTP/1.1" 200 123
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:00:02:57 +0530] "GET /AlumnieventmanagementApplication/AddAlumni.jsp HTTP/1.1" 200 4311
+0:0:0:0:0:0:0:1 - - [01/Aug/2024:00:02:57 +0530] "GET /AlumnieventmanagementApplication/CSS/Addalumni.css HTTP/1.1" 200 125

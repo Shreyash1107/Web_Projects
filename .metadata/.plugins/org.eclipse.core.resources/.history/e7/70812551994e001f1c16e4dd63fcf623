@@ -1,0 +1,15 @@
+.text-center
+{
+	margin-top: -50px;
+}
+.nav-pills .nav-link 
+{
+    background-color: black;
+    color: white; /* Optionally change text color to white */
+}
+
+/* Active link styles */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: black; /* Adjust active link background color */
+    color: white; /* Adjust active link text color */
+}

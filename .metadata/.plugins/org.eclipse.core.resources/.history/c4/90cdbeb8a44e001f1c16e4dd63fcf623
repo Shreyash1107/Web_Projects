@@ -1,0 +1,73 @@
+body {
+    background-image: url('../images/background.jpg'); /* Add the background image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    height: 100vh;
+}
+
+.login-form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #6c757d;
+}
+
+.form-control {
+    border-radius: 50px;
+    padding-left: 20px;
+}
+
+.form-group.position-relative {
+    position: relative;
+}
+
+.password-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #f7b6a8;
+    border-color: #f7b6a8;
+    border-radius: 50px;
+}
+
+.btn-outline-primary {
+    border-radius: 50px;
+}
+
+.form-check-label {
+    margin-left: 5px;
+}
+
+.forgot-password {
+    margin-top: -20px;
+}
+
+.social-buttons .btn {
+    width: 48%;
+    margin: 5px 1%;
+}
+
+p {
+    color: #6c757d;
+}

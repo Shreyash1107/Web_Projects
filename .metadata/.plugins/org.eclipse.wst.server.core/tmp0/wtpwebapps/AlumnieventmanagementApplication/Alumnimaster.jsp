@@ -60,8 +60,8 @@
                             <div class="form-group d-flex justify-content-center link-group">
                                 <a href="AddAlumni.jsp" class="btn btn-secondary m-2">Add Alumni</a>
                                 <a href="Viewalumni.jsp" class="btn btn-warning m-2">View Alumni</a>
-                                <a href="updateAlumni.jsp" class="btn btn-info m-2">Update Alumni</a>
-                                <a href="deleteAlumni.jsp" class="btn btn-danger m-2">Delete Alumni</a>
+                                <a href="UpdateAlumni.jsp" class="btn btn-info m-2">Update Alumni</a>
+                                <a href="Deletealumni.jsp" class="btn btn-danger m-2">Delete Alumni</a>
                             </div>
                         </div>
                     </div>
