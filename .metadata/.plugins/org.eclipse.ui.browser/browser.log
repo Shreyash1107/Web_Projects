@@ -32,3 +32,48 @@ Jul 30, 2024 13:33:09.77 Attempting to use a delegate that only supports static-
 Jul 30, 2024 16:23:55.12 NEW SESSION
 Jul 30, 2024 16:23:55.16 Created TensorFlow Lite XNNPACK delegate for CPU.
 Jul 30, 2024 16:24:27.24 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+
+Aug 02, 2024 10:22:48.47 NEW SESSION
+Aug 02, 2024 10:22:48.59 [GFX1-]: shader-cache: Shader disk cache is not supported
+Aug 02, 2024 10:22:48.61 [ERROR webrender_bindings::program_cache] shader-cache: Shader disk cache is not supported
+Aug 02, 2024 12:01:57.86 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 02, 2024 12:02:28.07 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Aug 02, 2024 12:26:12.89 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 02, 2024 12:26:44.71 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Aug 02, 2024 12:31:15.98 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 02, 2024 12:31:47.74 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Aug 02, 2024 12:35:40.02 [23576:10044:0802/123540.026:ERROR:interface_endpoint_client.cc(722)] Message 1 rejected by interface blink.mojom.WidgetHost
+Aug 02, 2024 12:47:45.75 [23576:25780:0802/124745.751:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Aug 02, 2024 12:49:08.14 [23576:25780:0802/124908.145:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Aug 02, 2024 12:49:08.14 [23576:25780:0802/124908.147:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Aug 02, 2024 12:49:41.09 [23576:25780:0802/124941.096:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Aug 02, 2024 12:49:43.38 [23576:25780:0802/124943.381:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Aug 02, 2024 13:09:27.32 [23576:25780:0802/130927.325:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Aug 02, 2024 13:09:27.32 [23576:25780:0802/130927.326:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+
+Aug 02, 2024 13:52:56.09 NEW SESSION
+Aug 02, 2024 13:52:56.10 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 02, 2024 13:53:23.68 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+
+Aug 02, 2024 14:01:10.60 NEW SESSION
+Aug 02, 2024 14:01:10.62 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 02, 2024 14:01:42.23 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+
+Aug 04, 2024 09:31:57.33 NEW SESSION
+Aug 04, 2024 09:31:57.37 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 04, 2024 09:32:27.35 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Aug 04, 2024 09:41:08.64 [23836:1544:0804/094108.641:ERROR:interface_endpoint_client.cc(722)] Message 1 rejected by interface blink.mojom.WidgetHost
+Aug 04, 2024 10:04:56.99 [23836:25872:0804/100456.998:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Aug 04, 2024 10:05:03.08 [23836:25872:0804/100503.081:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Aug 04, 2024 11:19:02.72 [23836:25872:0804/111902.720:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Aug 04, 2024 11:35:05.37 [23836:1544:0804/113505.378:ERROR:gpu_process_host.cc(1007)] GPU process exited unexpectedly: exit_code=34
+Aug 04, 2024 11:50:18.00 [23836:25872:0804/115018.000:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Aug 04, 2024 11:50:18.01 [23836:25872:0804/115018.002:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Aug 04, 2024 11:50:21.46 [23836:25872:0804/115021.464:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Aug 04, 2024 13:23:50.47 [23836:25872:0804/132350.470:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Aug 04, 2024 13:23:51.47 [23836:25872:0804/132350.913:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Aug 04, 2024 13:23:54.71 [23836:25872:0804/132354.716:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Aug 04, 2024 13:27:11.60 [23836:1544:0804/132711.602:ERROR:interface_endpoint_client.cc(722)] Message 1 rejected by interface blink.mojom.WidgetHost
+Aug 04, 2024 14:32:11.79 [23836:25872:0804/143211.376:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Aug 04, 2024 15:03:29.06 [23836:25872:0804/150329.069:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Aug 04, 2024 15:07:33.89 [23836:1544:0804/150733.869:ERROR:device_event_log_impl.cc(196)] [15:07:33.868] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)

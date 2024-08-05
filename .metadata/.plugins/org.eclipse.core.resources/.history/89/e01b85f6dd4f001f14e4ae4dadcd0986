@@ -1,0 +1,11 @@
+package org.techhub.service;
+
+import org.techhub.model.EventMasterModel;
+
+public class EventMasterServiceImpl 
+{
+	public boolean isEventAdded(EventMasterModel emodel)
+	{
+		
+	}
+}

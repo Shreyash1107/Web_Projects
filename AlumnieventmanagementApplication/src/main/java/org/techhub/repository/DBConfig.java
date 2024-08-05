@@ -15,7 +15,7 @@ public class DBConfig
 	public DBConfig(String path)
 	{
 		try
-		{
+		{  
 			FileInputStream finf = new FileInputStream(path);
 			out.println(path);
 			Properties p = new Properties();

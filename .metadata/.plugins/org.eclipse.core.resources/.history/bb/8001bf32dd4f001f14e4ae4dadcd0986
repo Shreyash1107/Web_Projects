@@ -1,0 +1,18 @@
+package org.techhub.repository;
+
+import org.techhub.model.EventMasterModel;
+
+public class EventMasterrepositoryImpl extends DBParent implements EventMasterrepository
+{
+	public boolean isEventAdded(EventMasterModel emodel)
+	{
+		try
+		{
+			pstmt = conn.prepareStatement("");
+		}
+		catch(Exception ex)
+		{
+			ex.printStackTrace();
+		}
+	}
+}

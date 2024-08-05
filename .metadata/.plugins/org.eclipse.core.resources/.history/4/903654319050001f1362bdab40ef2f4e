@@ -1,0 +1,47 @@
+/* CSS/Alumni.css */
+body
+{
+	
+}
+.btn-custom {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+}
+
+.btn-custom:hover {
+    background-color: #3e8e41;
+}
+
+.btn-custom:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.btn-add {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.btn-view {
+    background-color: #FF9800; /* Orange */
+    color: white;
+}
+
+.btn-update {
+    background-color: #00BCD4; /* Cyan */
+    color: white;
+}
+
+.btn-delete {
+    background-color: #F44336; /* Red */
+    color: white;
+}

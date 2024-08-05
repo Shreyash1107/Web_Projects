@@ -1,0 +1,41 @@
+package org.techhub.model;
+
+public class EventMasterModel 
+{
+	private int Eid;
+	private String name;
+	private String Date;
+	private String time;
+	private String Venue;
+	private int id;
+	private String subject;
+	public void seteid(int Eid)
+	{
+		this.Eid = Eid;
+	}
+	public int geteid()
+	{
+		return Eid;
+	}
+	public void setname(String name)
+	{
+		this.name = name;
+	}
+	public String getname()
+	{
+		return name;
+	}
+	public void setdate(String date)
+	{
+		this.Date = Date;
+	}
+	public String getdate()
+	{
+		return Date;
+	}
+	public void settime(String time)
+	{
+		this.time = time;
+	}
+	
+}

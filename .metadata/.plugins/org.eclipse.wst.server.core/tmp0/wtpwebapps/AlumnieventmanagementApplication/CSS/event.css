@@ -1,0 +1,47 @@
+/*@charset "ISO-8859-1";
+ CSS/event.css 
+.custom-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #3e8e41;  Green background on hover 
+    color: white;
+}
+
+.custom-btn:active {
+    background-color: #3e8e41;  Darker green when button is pressed 
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.btn-add {
+    background-color: #4CAF50;  Green 
+    color: white;
+}
+
+.btn-view {
+    background-color: #FF9800;  Orange 
+    color: white;
+}
+
+.btn-update {
+    background-color: #00BCD4;  Cyan 
+    color: white;
+}
+
+.btn-delete {
+    background-color: #F44336;  Red 
+    color: white;
+}
+*/

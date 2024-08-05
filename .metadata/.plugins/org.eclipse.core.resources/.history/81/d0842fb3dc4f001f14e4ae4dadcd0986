@@ -1,0 +1,11 @@
+package org.techhub.repository;
+
+import org.techhub.model.EventMasterModel;
+
+public class EventMasterrepositoryImpl 
+{
+	public boolean isEventAdded(EventMasterModel emodel)
+	{
+		
+	}
+}

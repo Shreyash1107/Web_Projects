@@ -1,6 +1,0 @@
-package org.techhub.service;
-
-public interface Alumnimasterservice 
-{
-	
-}

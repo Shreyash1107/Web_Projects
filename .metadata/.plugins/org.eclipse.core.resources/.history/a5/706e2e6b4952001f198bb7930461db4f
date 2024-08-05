@@ -1,0 +1,6 @@
+@charset "ISO-8859-1";
+.heading
+{
+	margin-top: -50px;
+	margin-bottom: 60px;
+}

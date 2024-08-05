@@ -1,0 +1,10 @@
+package org.techhub.model;
+
+public class EventMasterModel 
+{
+	private int Eid;
+	private String name;
+	private String Date;
+	private String time;
+	private String time;
+}
